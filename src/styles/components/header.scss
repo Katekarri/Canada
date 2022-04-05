@@ -1,0 +1,14 @@
+.header {
+  background-color: #fcfcfc;
+  &-wrap {
+    display: flex;
+    justify-content: space-between;
+  }
+  &-list {
+    list-style-type: none;
+    display: flex;
+  }
+  &-items {
+    padding-right: 30px;
+  }
+}
