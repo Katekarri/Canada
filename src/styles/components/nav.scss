@@ -1,8 +1,10 @@
 .nav {
-  display: inline-block;
   &-list {
     list-style-type: none;
     display: flex;
     justify-content: space-between;
+  }
+  &-item {
+    margin-right: 30px;
   }
 }
