@@ -1,0 +1,11 @@
+.general{
+  background-color: #F4F4F4;
+  &-wrap{
+    display: flex;
+  }
+  &-foto{
+    background: url(/src/asset/images/content/Group\ 406.jpg) center center/cover no-repeat;
+    width: 612px;
+    height: 583px;
+  }
+}
