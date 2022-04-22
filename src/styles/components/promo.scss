@@ -1,4 +1,4 @@
-.general {
+.promo {
   position: relative;
   overflow: hidden;
   background-color: #F4F4F4;
@@ -49,10 +49,6 @@
     display: flex;
   }
 
-  &-activ{
-
-  }
-
   &-button{
     border: 1px solid #E55241;
     box-sizing: border-box;
@@ -74,7 +70,7 @@
     color: #FFFFFF;
   }
 }
-.general::after {
+.promo::after {
   content: '';
   background: url(/src/asset/images/decorations/Rectangle\ 6175.svg) center center/cover no-repeat;
   width: 661px;
