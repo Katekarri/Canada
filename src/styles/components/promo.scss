@@ -1,82 +1,61 @@
 .promo {
   position: relative;
   overflow: hidden;
-  background-color: #F4F4F4;
   margin-top: 10px;
-  &-wrap{
-    display: flex;
+  background: url(/src/asset/images/decorations/Rectangle\ 6175.svg) 100% 100%/contain no-repeat #F4F4F4;
+
+  &-wrap {
+    padding-top: 150px;
+    padding-bottom: 190px;
+    background: url(/src/asset/images/content/Group\ 406.png) 100% 100% no-repeat;
   }
+
   &-info {
-    display: inline-block;
-    width: 60%;
+    max-width: 720px;
+    width: 100%;
   }
-  &-foto {
-    position: relative;
-    z-index: 30;
-    background: url(/src/asset/images/content/Group\ 406.png) center center/cover no-repeat;
-    width: 612px;
-    height: 583px;
-  }
+
   &-title {
+    margin-bottom: 40px;
     font-weight: 700;
     font-size: 48px;
     line-height: 64px;
     color: #1E222E;
   }
-  &-list{
+
+  &-list {
     list-style-type: none;
-    position: relative;
   }
 
   &-item {
+    position: relative;
+    padding-left: 45px;
     font-weight: 400;
     font-size: 24px;
     line-height: 36px;
     color: #3A3E48;
-    margin-top: 18px;
+
+    &+li {
+      margin-top: 18px;
+    }
   }
-  &-item::before{
+
+  &-item::before {
     content: '';
     background: url(/src/asset/images/decorations/maple-leaf\ 1.svg) center center/cover no-repeat;
     width: 36px;
     height: 36px;
     display: block;
     position: absolute;
-    left: -10px;
-  }
-  &-dynamic{
-    margin-top: 50px;
-    display: flex;
+    top: 0;
+    left: 0;
   }
 
-  &-button{
-    border: 1px solid #E55241;
-    box-sizing: border-box;
-    border-radius: 4px;
-    font-weight: 700;
-    width: 225px;
-    height: 64px;
-    font-size: 18px;
-    line-height: 24px;
-    color: #E55241;
-    padding: 10px 5px;
-    margin-left: 15px;
-    cursor: pointer;
+  &-action {
+    margin-top: 40px;
+
+    .button+button {
+      margin-left: 15px;
+    }
   }
-  &-button:hover{
-    width: 196px;
-    height: 64px;
-    background: #E55241;
-    color: #FFFFFF;
-  }
-}
-.promo::after {
-  content: '';
-  background: url(/src/asset/images/decorations/Rectangle\ 6175.svg) center center/cover no-repeat;
-  width: 661px;
-  height: 750px;
-  position: absolute;
-  z-index: 10;
-  top: 0px;
-  right: 0;
 }

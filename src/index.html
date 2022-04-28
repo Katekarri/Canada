@@ -15,22 +15,20 @@
 <body>
   <header class="header">
     <div class="container">
-      <div class="menu-row">
-        <ul class="menu-list">
-          <li class="menu-items"><a class="menu-link" href="#">О проекте</a></li>
-          <li class="menu-items"><a class="menu-link" href="#">Вакансии</a></li>
-          <li class="menu-items"><a class="menu-link" href="#">Контакты</a></li>
+      <div class="header-row">
+        <ul class="add-menu">
+          <li class="add-menu-items"><a class="add-menu-link" href="#">О проекте</a></li>
+          <li class="add-menu-items"><a class="add-menu-link" href="#">Вакансии</a></li>
+          <li class="add-menu-items"><a class="add-menu-link" href="#">Контакты</a></li>
         </ul>
-        <ul class="menu-list">
-          <li class="menu-items menu-items-special"><a class="menu-link" href="#">17°C,Торонто</a></li>
-          <li class="menu-items menu-items-special menu-items-special-languages"><a class="menu-link"
+        <ul class="add-menu">
+          <li class="add-menu-items"><a class="add-menu-link add-menu-link-special" href="#">17°C,Торонто</a></li>
+          <li class="add-menu-items"><a class="add-menu-link add-menu-link-special add-menu-link-languages"
               href="#">Русский</a></li>
-          <li class="menu-items menu-items-special menu-items-special-accout"><a class="menu-link" href="#">Мой
+          <li class="add-menu-items"><a class="add-menu-link add-menu-link-special add-menu-link-accout" href="#">Мой
               аккаунт</a></li>
         </ul>
       </div>
-    </div>
-    <div class="container">
       <div class="subheader">
         <a class="logo" href="#"></a>
         <nav class="nav">
@@ -44,11 +42,12 @@
           </ul>
         </nav>
         <div class="header-action">
+          <button class="search"></button>
           <button class="button">Оценить шансы</button>
-          <div class="saerch"></div>
         </div>
       </div>
     </div>
+
   </header>
   <div class="promo">
     <div class="container">
@@ -70,6 +69,34 @@
       </div>
     </div>
   </div>
+  <div class="offers">
+    <div class="container">
+      <div class="watch">
+        <h4 class="watch-title">Популярные предложения</h4>
+        <div class="watch-action">
+          <button class="watch-button">Cмотреть все</button>
+        </div>
+      </div>
+      <ul class="offers-list">
+        <li class="offers-item">
+          <img src="/src/asset/images/content/histry1.jpg" alt="foto">
+          <div class="offers-description">
+            <h5 class="offers-description-title">Консультация по иммиграции или учебе</h5>
+            <p class="offers-description-info">Нужно больше информации о переезде в Канаду? Оцените свои шансы у
+              лицензированного иммиграционного консультатнта!</p>
+          </div>
+          <div class="offers-cost">
+            <div class="offers-price">
+              <h5 class="offers-price-r">5950 ₽</h5>
+              <h5 class="offers-price-cad">$100 CAD</h5>
+            </div>
+            <div class="offers-action">
+              <button class="button">Подробнее</button>
+            </div>
+          </div>
+        </li>
+      </ul>
+    </div>
 </body>
 
 </html>
