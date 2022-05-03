@@ -18,6 +18,21 @@
 
   &-item {
     padding-bottom: 30px;
+    position: relative;
+    z-index: 1;
+
+    &::before {
+      content: '';
+      background: url(/src/asset/images/icons/logo.svg) center center/cover no-repeat;
+      width: 35px;
+      padding: 10px;
+      height: 42px;
+      display: block;
+      position: absolute;
+      z-index: 10;
+      top: 10px;
+      left: 10px;
+    }
   }
 
   &-description {
