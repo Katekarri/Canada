@@ -1,0 +1,53 @@
+.watch {
+  align-items: center;
+  margin: 70px 0 50px;
+  display: flex;
+  justify-content: space-between;
+
+  &-title {
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 48px;
+    color: #1E222E;
+  }
+
+  &-button {
+    cursor: pointer;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 20px;
+    color: #E55241;
+    border: none;
+    background-color: #fff;
+  }
+
+  &-action {
+    position: relative;
+
+    &::after {
+      content: '';
+      background: url(/src/asset/images/icons/Arrow_right.svg) center center/cover no-repeat;
+      width: 24px;
+      height: 24px;
+      display: block;
+      position: absolute;
+      top: -1px;
+      right: -35px;
+      cursor: pointer;
+    }
+
+    &::before {
+      content: '';
+      background: url(/src/asset/images/icons/Arrow_left.svg) center center/cover no-repeat;
+      width: 24px;
+      height: 24px;
+      display: block;
+      position: absolute;
+      top: 0;
+      left: -35px;
+      cursor: pointer;
+    }
+  }
+
+
+}

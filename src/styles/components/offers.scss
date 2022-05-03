@@ -1,0 +1,68 @@
+.offers {
+  &-cover {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &-list {
+    border: 1px solid #DBDFEC;
+    border-radius: 10px;
+    max-width: 280px;
+    cursor: pointer;
+
+    &:hover {
+      box-shadow: -5px 0px 10px rgba(190, 190, 190, 0.25),
+        5px 5px 10px rgba(190, 190, 190, 0.25)
+    }
+  }
+
+  &-item {
+    padding-bottom: 30px;
+  }
+
+  &-description {
+    margin: 20px 15px 0 15px;
+
+    &-title {
+      cursor: pointer;
+      font-weight: 700;
+      font-size: 18px;
+      line-height: 24px;
+      color: #1E222E;
+
+      &:hover {
+        color: #E55241;
+      }
+    }
+
+    &-info {
+      margin-top: 10px;
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 20px;
+      color: #3A3E48;
+    }
+  }
+
+  &-cost {
+    margin: 20px 15px 0 15px;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &-price {
+    &-r {
+      font-weight: 700;
+      font-size: 20px;
+      line-height: 30px;
+      color: #1E222E;
+    }
+
+    &-cad {
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 20px;
+      color: #AFB2C4;
+    }
+  }
+}
