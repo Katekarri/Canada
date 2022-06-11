@@ -1,0 +1,108 @@
+.information {
+  .container {
+    overflow: hidden;
+  }
+
+  &-wrap {
+    display: flex;
+  }
+
+  &-list {
+    display: flex;
+    width: 66%;
+    padding-bottom: 15px;
+  }
+
+  &-title {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+    margin-bottom: 30px;
+
+    a {
+      color: #1E222E;
+      position: relative;
+      display: inline-block;
+      padding-right: 44px;
+
+      &::after {
+        content: "";
+        width: 24px;
+        height: 24px;
+        display: block;
+        position: absolute;
+        top: 5px;
+        cursor: pointer;
+        background: url(/src/asset/images/icons/Arrow_right.svg) center center/cover no-repeat;
+        right: 0;
+      }
+    }
+  }
+
+  &-item {
+    width: 50%;
+    padding: 0 15px;
+    position: relative;
+  }
+
+  &-faq {
+    width: 33%;
+    padding: 0 15px;
+  }
+
+  &-topic {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+    color: #1E222E;
+  }
+
+  &-special-title {
+    background: rgba(30, 34, 46, 0.4);
+    position: relative;
+    display: inline-block;
+    bottom: 47px;
+    left: 0;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 24px;
+    color: #F7F7F7;
+    padding-left: 20px;
+  }
+
+  &-special {
+    position: relative;
+    height: 47%;
+  }
+
+  &-theme {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #3A3E48;
+    border-top: 1px solid #F3F3F3;
+    padding: 10px 15px;
+
+    &:hover {
+      color: #E55241;
+      background: #FFF6F6;
+    }
+  }
+
+  &-themes {
+    box-shadow: -5px 0px 10px rgba(190, 190, 190, 0.25),
+      5px 5px 10px rgba(190, 190, 190, 0.25);
+    border-radius: 10px;
+    margin-top: -52px;
+  }
+
+  &-faq {
+    &-txt {
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 26px;
+      color: #3A3E48;
+      padding: 11px 15px 40px;
+    }
+  }
+}
