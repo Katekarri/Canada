@@ -1,0 +1,59 @@
+.about {
+  padding: 50px 0;
+  background: #F7F7F7;
+
+  &-wrap {
+    display: flex;
+    width: 100%;
+  }
+
+  &-foto {
+    width: 50%;
+  }
+
+  &-informations {
+    width: 50%;
+    margin-left: 25px;
+  }
+
+  &-title {
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 48px;
+    color: #1E222E;
+    margin-bottom: 40px;
+  }
+
+  &-info {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #3A3E48;
+    margin-bottom: 30px;
+  }
+
+  &-action {
+    a {
+      position: relative;
+      font-size: 18px;
+      line-height: 24px;
+      padding: 20px 50px;
+      color: #FFFFFF;
+      background-color: #E55241;
+
+      &::after {
+        content: "";
+        width: 22px;
+        height: 14px;
+        display: block;
+        position: absolute;
+        top: 25px;
+        right: 20px;
+        cursor: pointer;
+        background: url(/src/asset/images/icons/Arrow_right2.svg) center center/cover no-repeat;
+
+      }
+    }
+  }
+
+}

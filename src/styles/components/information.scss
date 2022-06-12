@@ -11,6 +11,10 @@
     display: flex;
     width: 66%;
     padding-bottom: 15px;
+
+    &-storis {
+      width: 100%;
+    }
   }
 
   &-title {
@@ -59,20 +63,19 @@
 
   &-special-title {
     background: rgba(30, 34, 46, 0.4);
-    position: relative;
+    position: absolute;
     display: inline-block;
-    bottom: 47px;
+    bottom: 0;
     left: 0;
     font-weight: 700;
     font-size: 18px;
     line-height: 24px;
     color: #F7F7F7;
-    padding-left: 20px;
+    padding: 10px 15px;
   }
 
   &-special {
     position: relative;
-    height: 47%;
   }
 
   &-theme {
@@ -89,11 +92,16 @@
     }
   }
 
+  &-theme-specially {
+    &:hover {
+      border-left: 4px solid #E55241;
+    }
+  }
+
   &-themes {
     box-shadow: -5px 0px 10px rgba(190, 190, 190, 0.25),
       5px 5px 10px rgba(190, 190, 190, 0.25);
     border-radius: 10px;
-    margin-top: -52px;
   }
 
   &-faq {
@@ -105,4 +113,5 @@
       padding: 11px 15px 40px;
     }
   }
+
 }
