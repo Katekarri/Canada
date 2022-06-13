@@ -1,0 +1,29 @@
+.footer {
+  background: #272727;
+
+  &-wrapp {
+    padding: 30px 20px 30px 50px;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &-link {
+    background-image: url(/src/asset/images/logo/footer-logo.svg);
+    width: 208px;
+    height: 176px;
+    display: inline-block;
+  }
+
+  &-item {
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 30px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+
+    a {
+      text-decoration: none;
+      color: #FFFFFF;
+    }
+  }
+}
