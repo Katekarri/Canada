@@ -1,0 +1,34 @@
+.copyright {
+  background-color: #202020;
+
+  &-wrapp {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 0;
+  }
+
+  &-date {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #FFFFFF;
+  }
+
+  &-link {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #FFFFFF;
+
+    &-politics {
+      padding-left: 10px;
+
+      &::before {
+        content: "";
+        border-left: 1px solid #FFFFFF;
+        padding-right: 11px;
+      }
+    }
+  }
+
+}
