@@ -537,9 +537,13 @@
             <input type="email" placeholder="Ваш e-mail">
             <input type="text" placeholder="Пароль">
             <input type="number" placeholder="Ваше имя">
-            <!-- <input type="checkbox" placeholder="Я согласен(а) на обработку моих персональных данных"> -->
-            <button class="button">Зарегестироваться</button>
-            <button class="button">Войти в аккаунт</button>
+            <div class="form-row">
+              <label for="agree"> <input class="form-checkbox" type="checkbox" name="agree"><span class="checkbox-txt"> Я согласен(а) на обработку моих персональных данных</span></label>
+            </div>
+            <div class="form-action">
+              <button class="button button-form">Зарегестироваться</button>
+              <button class="button button-form">Войти в аккаунт</button>
+            </div>
           </form>
         </div>
       </div>
