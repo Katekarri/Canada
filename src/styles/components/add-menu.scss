@@ -1,9 +1,7 @@
 .add-menu {
-  list-style-type: none;
   display: flex;
 
   &-link {
-    text-decoration: none;
     position: relative;
     display: inline-block;
     color: #3A3E48;
@@ -46,10 +44,8 @@
   }
 
   &-items {
+    font: 400 16px/24px 'Roboto', sans-serif;
     position: relative;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 24px;
 
     &+li {
       padding-left: 30px;

@@ -1,12 +1,24 @@
 .header {
-  background-color: #fcfcfc;
-
+  background-color: #ffffff;
   &-action {
     text-align: left;
   }
-
   &-row {
-    display: flex;
-    justify-content: space-between;
+    .container {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }    
+    &-add {
+      background: #fcfcfc;
+      .container {
+        height: 60px;
+      }      
+    }
+    &-basic {
+      .container {
+        height: 114px;
+      } 
+    }
   }
 }
